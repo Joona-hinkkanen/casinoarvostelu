@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Riippumaton arvostelu- ja kokemusalusta rahapelisivustoille.">
+  <meta name="theme-color" content="#0d0f14">
+  <title>Casinoarvostelu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Yläpalkki: logo ja navigaatio -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#alku">Casino<span>arvostelu</span></a>
+
+      <nav class="nav" aria-label="Päänavigaatio">
+        <a href="#arvostelut">Arvostelut</a>
+        <a href="#tietoa">Tietoa</a>
+        <a href="#yhteys">Yhteys</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero: otsikko ja esittelyteksti -->
+    <section class="hero container" id="alku">
+      <h1>Casinoarvostelut</h1>
+      <p class="hero-text">
+        Riippumattomia arvosteluja ja kokemuksia rahapelisivustoista.
+      </p>
+
+      <!-- Hakukenttä -->
+      <form class="search" id="haku-lomake">
+        <label class="sr-only" for="haku">Hae arvosteluja</label>
+        <input id="haku" type="search" placeholder="Hae kasinoa nimellä…" autocomplete="off">
+        <button type="submit">Hae</button>
+      </form>
+    </section>
+
+    <!-- Arvostelukorttien alue -->
+    <section class="reviews container" id="arvostelut">
+      <h2>Arvostelut</h2>
+
+      <!-- Lisää arvostelukortit tähän -->
+      <div class="review-area" id="arvostelut-lista">
+        <p>Arvostelukortit tulevat tähän.</p>
+      </div>
+    </section>
+
+    <!-- Lyhyt tieto-osio navigaatiota varten -->
+    <section class="about container" id="tietoa">
+      <h2>Tietoa</h2>
+      <p>
+        Casinoarvostelu on riippumaton arvostelu- ja kokemusalusta.
+        Lisää tähän oma kuvauksesi sivustosta.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="yhteys">
+    <div class="container footer-inner">
+      <p>© <span id="vuosi">2026</span> Casinoarvostelu</p>
+      <p>18+ · Pelaa vastuullisesti</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
